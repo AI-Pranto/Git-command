@@ -45,3 +45,10 @@
 git clone --recurse-submodules 
 git submodule init
 git submodule update
+
+### Git patch ###
+
+git format-patch <branch>
+git format-patch <branch> -o <directory>
+git format-patch -1 <commit_sha>
+ git am <patch_file>
